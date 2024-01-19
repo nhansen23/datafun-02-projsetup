@@ -1,9 +1,16 @@
-''' This module is used to practice looping and branching.  It provides functions for creating a series of project folders. '''
+''' 
+
+This module is used to practice looping and branching.
+It provides functions for creating a series of project folders. 
+
+'''
 
 import math
 import statistics
 # import module from previous project: datafun-01-attr
 import maverick_analytics_utils 
+
+import pathlib
 
 # Function 1: generate folders for a given range
 def create_folders_range(start_year, end_year):
